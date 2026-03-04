@@ -1215,3 +1215,11 @@ body:has(.page-content.dark) {
 .page-content.dark .aps-logo .icon {
   border-color: var(--brand-color) !important;
 }
+
+.page-content.dark .dashboard-params {
+  background-color: var(--dark-theme-color1);
+}
+
+.page-content.dark .dashboard-param-card .txt-value {
+  color: var(--white-color);
+}
