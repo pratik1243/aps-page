@@ -19,7 +19,7 @@ const DashboardCard = ({
       <div className="card-sec2">
         <h4>{percent}</h4>{" "}
         <span className={`${status || ""}`}>
-          {countType == "UP" ? <FaLongArrowAltUp /> : <FaLongArrowAltDown />}
+          {countType === "UP" ? <FaLongArrowAltUp /> : <FaLongArrowAltDown />}
           {subtext}
         </span>
       </div>

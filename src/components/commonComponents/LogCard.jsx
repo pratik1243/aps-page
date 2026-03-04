@@ -5,7 +5,7 @@ const LogCard = ({ severity, title, api, subtext }) => {
     <div className="log-card">
       <div className={`serverity-chip ${severity || ""}`}>{severity}</div>
       <h3>{title}</h3>
-      <a href="#">{api}</a>
+      <span>{api}</span>
       <p>{subtext}</p>
     </div>
   );

@@ -247,7 +247,7 @@ body {
   margin-bottom: 13px !important;
 }
 
-.right-sec .form-section .heading-sec a {
+.right-sec .form-section .heading-sec span {
   color: var(--brand-color);
   text-decoration: none;
   outline: none;
@@ -697,7 +697,7 @@ body {
   background-color: var(--yellow-color);
 }
 
-.log-card a {
+.log-card span {
   color: var(--brand-color);
   text-decoration: none;
   cursor: pointer;

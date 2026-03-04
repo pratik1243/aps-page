@@ -67,7 +67,7 @@ const Login = () => {
           <div className="heading-sec">
             <h4>Sign Up</h4>
             <p>
-              Already have an account? <a href="#">Log in</a>
+              Already have an account? <span>Log in</span>
             </p>
           </div>
           <div>

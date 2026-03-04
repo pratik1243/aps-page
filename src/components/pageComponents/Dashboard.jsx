@@ -2,7 +2,7 @@ import React from "react";
 import { IoBan, IoSearchSharp } from "react-icons/io5";
 import DashboardCard from "../commonComponents/DashboardCard";
 import { PiWarningBold } from "react-icons/pi";
-import { GrFormSearch } from "react-icons/gr";
+// import { GrFormSearch } from "react-icons/gr";
 import Table from "../commonComponents/Table";
 
 const Dashboard = () => {
