@@ -1096,6 +1096,12 @@ body {
   .log-tab-sec .log-tab-content {
     border-bottom: 1px solid var(--grey-color);
   }
+
+  .dashbaord-analytic-card{
+    border: 1px solid var(--grey-color);
+    padding: 10px;
+    border-radius: 5px;
+  }
 }
 
 .page-content.dark .side-bar-section {
