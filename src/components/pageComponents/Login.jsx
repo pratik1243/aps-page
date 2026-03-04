@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import TextField from "../commonComponents/TextField";
 import Button from "../commonComponents/Button";
 import { FaCheck } from "react-icons/fa6";
@@ -67,7 +67,7 @@ const Login = () => {
           <div className="heading-sec">
             <h4>Sign Up</h4>
             <p>
-              Already have an account? <a href="">Log in</a>
+              Already have an account? <a href="#">Log in</a>
             </p>
           </div>
           <div>

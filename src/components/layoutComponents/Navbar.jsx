@@ -1,7 +1,7 @@
 import React from "react";
 import BreadCrumbs from "./BreadCrumbs";
 import Button from "../commonComponents/Button";
-import { MdOutlineMenuOpen, MdOutlineModeNight } from "react-icons/md";
+import { MdOutlineMenuOpen } from "react-icons/md";
 
 const Navbar = ({ setOpenSideBar, setDarkTheme }) => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineHome } from "react-icons/md";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const BreadCrumbs = () => {
   const location = useLocation();  
