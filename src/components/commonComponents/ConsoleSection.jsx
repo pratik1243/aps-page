@@ -34,7 +34,7 @@ const ConsoleSection = () => {
         <div className="log-tab-sec">
           <div className="log-tab-btn-sec">
             <div
-              className={`log-tab ${activeTab == 0 ? "active" : ""}`}
+              className={`log-tab ${activeTab === 0 ? "active" : ""}`}
               onClick={() => {
                 setActiveTab(0);
               }}
@@ -42,7 +42,7 @@ const ConsoleSection = () => {
               Activity Log
             </div>
             <div
-              className={`log-tab ${activeTab == 1 ? "active" : ""}`}
+              className={`log-tab ${activeTab === 1 ? "active" : ""}`}
               onClick={() => {
                 setActiveTab(1);
               }}
@@ -50,7 +50,7 @@ const ConsoleSection = () => {
               Verification Loops
             </div>
           </div>
-          {activeTab == 0 && (
+          {activeTab === 0 && (
             <div className="log-tab-content">
               <p>
                 [09:00:00] I'll begin a systematic penetration test on
@@ -102,7 +102,7 @@ const ConsoleSection = () => {
               </p>
             </div>
           )}
-          {activeTab == 1 && (
+          {activeTab === 1 && (
             <div className="log-tab-content">
               <p>No Verification Loops Found!</p>{" "}
             </div>

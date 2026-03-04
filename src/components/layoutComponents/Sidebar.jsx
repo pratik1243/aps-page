@@ -65,14 +65,14 @@ const Sidebar = ({ openSideBar, setOpenSideBar }) => {
         <ApsLogo />
         <div className="menu-items-sec">
           {menuItems.map((ele, i) => {
-            if (ele?.type == "divider") {
+            if (ele?.type === "divider") {
               return <hr />;
             }
             return (
               <div
                 key={i}
                 className={`side-bar-menu-item ${
-                  location.pathname.slice(1) == ele?.route ? "active" : ""
+                  location.pathname.slice(1) === ele?.route ? "active" : ""
                 }`}
                 onClick={() => {
                   handleRoute(`/${ele?.route}`);

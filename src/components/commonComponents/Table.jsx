@@ -23,11 +23,11 @@ const Table = ({ tableData }) => {
                   {Object.entries(el)?.map(([key, value], id) => {
                     return (
                       <td key={id}>
-                        {key == "status" ? (
+                        {key === "status" ? (
                           <StatusChip text={value} />
-                        ) : key == "progress" ? (
+                        ) : key === "progress" ? (
                           <Progress percentage={value} />
-                        ) : key == "vulnerability" ? (
+                        ) : key === "vulnerability" ? (
                           <VurnebilityChip data={value} />
                         ) : (
                           value
