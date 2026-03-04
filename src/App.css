@@ -1223,3 +1223,7 @@ body:has(.page-content.dark) {
 .page-content.dark .dashboard-param-card .txt-value {
   color: var(--white-color);
 }
+
+.page-content.dark .side-menu-open-btn svg {
+  color: var(--white-color);
+}
